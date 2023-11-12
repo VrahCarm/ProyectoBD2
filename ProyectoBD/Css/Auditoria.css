@@ -1,0 +1,33 @@
+body{
+    background-image: url('fondo-ferreteria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+a.back-button {
+    display: block;
+    margin-top: 20px;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+.logo:hover {
+    filter: brightness(1.2); /* Efecto de brillo al pasar el cursor sobre el logo */
+}
